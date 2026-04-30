@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teleherminius.Core", "Teleherminius.Core\Teleherminius.Core.csproj", "{BF29FF95-30FC-477D-97FB-C29151BEA8D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teleherminius.Presentation.Collector", "Teleherminius.Presentation.Collector\Teleherminius.Presentation.Collector.csproj", "{183A1D3F-99EC-4A00-BDB7-C6479381AC97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teleherminius.Application", "Teleherminius.Application\Teleherminius.Application.csproj", "{D3745D3F-0146-457E-A67D-F50A36F97F73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teleherminius.Infrastructure", "Teleherminius.Infrastructure\Teleherminius.Infrastructure.csproj", "{14281DA4-D4A8-4D80-B1E7-91CBE9732739}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF29FF95-30FC-477D-97FB-C29151BEA8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF29FF95-30FC-477D-97FB-C29151BEA8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF29FF95-30FC-477D-97FB-C29151BEA8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF29FF95-30FC-477D-97FB-C29151BEA8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{183A1D3F-99EC-4A00-BDB7-C6479381AC97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183A1D3F-99EC-4A00-BDB7-C6479381AC97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183A1D3F-99EC-4A00-BDB7-C6479381AC97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183A1D3F-99EC-4A00-BDB7-C6479381AC97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3745D3F-0146-457E-A67D-F50A36F97F73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3745D3F-0146-457E-A67D-F50A36F97F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3745D3F-0146-457E-A67D-F50A36F97F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3745D3F-0146-457E-A67D-F50A36F97F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14281DA4-D4A8-4D80-B1E7-91CBE9732739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14281DA4-D4A8-4D80-B1E7-91CBE9732739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14281DA4-D4A8-4D80-B1E7-91CBE9732739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14281DA4-D4A8-4D80-B1E7-91CBE9732739}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
