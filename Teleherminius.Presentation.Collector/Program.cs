@@ -10,6 +10,7 @@ using Teleherminius.Core.Adapter;
 using Teleherminius.Core.Repository;
 using Teleherminius.Infrastructure;
 using Teleherminius.Infrastructure.Repository;
+using Teleherminius.Infrastructure.Repository.DatabaseRepository;
 
 namespace Teleherminius.Presentation.Collector
 {

@@ -3,7 +3,7 @@ namespace Teleherminius.Core.Model.Value;
 /// <summary>
 /// Represents percent of used RAM.
 /// </summary>
-public class RamUsage
+public sealed class RamUsage
 {
     public long PhysicalTotal { get; set; }
     public long PhysicalAvailable { get; set; }

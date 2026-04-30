@@ -2,9 +2,9 @@ using Microsoft.EntityFrameworkCore;
 using Teleherminius.Core.Dto;
 using Teleherminius.Core.Repository;
 
-namespace Teleherminius.Infrastructure.Repository;
+namespace Teleherminius.Infrastructure.Repository.DatabaseRepository;
 
-public class DatabaseInformationBlockRepository : IInformationBlockRepository
+public sealed class DatabaseInformationBlockRepository : IInformationBlockRepository
 {
     private readonly AppDbContext _context;
 

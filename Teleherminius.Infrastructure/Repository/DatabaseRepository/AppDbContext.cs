@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Teleherminius.Core.Dto;
 
-namespace Teleherminius.Infrastructure;
+namespace Teleherminius.Infrastructure.Repository.DatabaseRepository;
 
 public class AppDbContext : DbContext
 {

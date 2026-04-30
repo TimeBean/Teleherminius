@@ -3,7 +3,7 @@ namespace Teleherminius.Core.Model.Value;
 /// <summary>
 /// Represents CPU usage statistics for a system or process.
 /// </summary>
-public class CpuUsage
+public sealed class CpuUsage
 {
     /// <summary>
     /// Identifier for the CPU source.

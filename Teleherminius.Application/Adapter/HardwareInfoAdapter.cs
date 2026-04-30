@@ -5,7 +5,7 @@ using Teleherminius.Core.Model.Value;
 
 namespace Teleherminius.Application.Adapter;
 
-public class HardwareInfoAdapter : IHardwareInformationAdapter
+public sealed class HardwareInfoAdapter : IHardwareInformationAdapter
 {
     private readonly HardwareInfo _hardwareInfo;
 
