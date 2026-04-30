@@ -27,13 +27,6 @@ public class App : BackgroundService
         {
             var information = _hardwareInformationAdapter.Get();
             
-            if (information == null)
-                throw new InvalidOperationException("Hardware info is null");
-            if (information.CpuUsage == null)
-                throw new InvalidOperationException("CpuUsage is null");
-            if (information.RamUsage == null)
-                throw new InvalidOperationException("RamUsage is null");
-            
             var request = new CreateCommand(information);
             
             await _mediator.Send(request, stoppingToken);
